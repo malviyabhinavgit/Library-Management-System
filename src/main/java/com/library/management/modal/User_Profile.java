@@ -5,6 +5,7 @@ import java.util.Date;
 import java.util.List;
 
 import com.library.management.enums.ROLE;
+import com.library.management.enums.USERSTATUS;
 
 public class User_Profile {
 	private int userId;
@@ -18,6 +19,7 @@ public class User_Profile {
 	private Membership membership;
 	private List<String> userWishList;
 	private List<Task> toDoList;
+	private USERSTATUS userStatus;
 
 	public int getUserId() {
 		return userId;

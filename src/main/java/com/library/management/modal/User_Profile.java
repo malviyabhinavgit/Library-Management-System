@@ -21,6 +21,14 @@ public class User_Profile {
 	private List<Task> toDoList;
 	private USERSTATUS userStatus;
 
+	public USERSTATUS getUserStatus() {
+		return userStatus;
+	}
+
+	public void setUserStatus(USERSTATUS userStatus) {
+		this.userStatus = userStatus;
+	}
+
 	public int getUserId() {
 		return userId;
 	}

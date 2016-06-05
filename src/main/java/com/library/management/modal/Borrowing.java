@@ -2,7 +2,7 @@ package com.library.management.modal;
 
 public class Borrowing {
 	private int userId;
-	private Cart cartId;
+	private Cart cart;
 
 	public int getUserId() {
 		return userId;
@@ -13,11 +13,11 @@ public class Borrowing {
 	}
 
 	public Cart getCartId() {
-		return cartId;
+		return cart;
 	}
 
 	public void setCartId(Cart cartId) {
-		this.cartId = cartId;
+		this.cart = cart;
 	}
 
 }

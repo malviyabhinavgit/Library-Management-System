@@ -12,11 +12,11 @@ public class Borrowing {
 		this.userId = userId;
 	}
 
-	public Cart getCartId() {
+	public Cart getCart() {
 		return cart;
 	}
 
-	public void setCartId(Cart cartId) {
+	public void setCart( Cart cart) {
 		this.cart = cart;
 	}
 
